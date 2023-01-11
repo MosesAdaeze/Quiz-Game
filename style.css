@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url(./image/home.png);
+    background-size: cover;
+}
