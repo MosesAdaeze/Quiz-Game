@@ -9,12 +9,12 @@ h1 {
     font-weight: 700;
     /* font-size: 250%; */
     color: white;
-    padding: 4em 1.5em;
+    padding: 2.4em 1.5em;
 
 }
 
 .box div {
-    /* max-height: 50vh; */
+    max-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,16 +22,18 @@ h1 {
     /* padding-left: 10%;  */
 }
 
-a {
+div a {
     text-decoration: none;
     font-family: bruce forever;
     /* color: rgb(202, 150, 159); */
     color: rgb(141, 55, 84);
     font-size: 50px;
     font-weight: 700;
+    padding-top: 10%;
+    padding-bottom: 20%;
 }
 
-a:hover{
+div a:hover{
     color: rgb(253, 121, 141);
 }
 
@@ -53,30 +55,13 @@ ul a {
 .option {
     display: flex;
     justify-content: center;
-    padding-top: 5em;
-    margin: 2em 9em 5em;
-    border-radius: 20%;
 }
 
-.one {
+button {
     size: 50%;
     background-color: mediumslateblue;
-    border-radius: 20%;
-    margin-right: 8%;
-}
-
-.two {
-   size: 50%;
-    background-color: pink;
-    border-radius: 20%;
-    margin-right: 8%;
-}
-
-.three {
-    size: 50%;
-    background-color: lightblue;
-    border-radius: 20%;
-    margin-right: 8%;
+    size: 50px;
+    margin-left: 5%;
 }
 
 
