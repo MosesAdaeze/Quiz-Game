@@ -7,18 +7,19 @@
 h1 {
     font-family: bruce forever;
     font-weight: 700;
-    font-size: 230%;
+    /* font-size: 250%; */
     color: white;
-    padding: 4em 2em;
+    padding: 4em 1.5em;
+
 }
 
 .box div {
-    min-height: 65vh;
+    /* max-height: 50vh; */
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 250px;
-    padding-left: 10%;
+    /* /* padding-bottom: 250px; */
+    /* padding-left: 10%;  */
 }
 
 a {
@@ -33,6 +34,7 @@ a {
 a:hover{
     color: rgb(253, 121, 141);
 }
+
 /* ul {
     list-style: none;
 }
@@ -44,7 +46,61 @@ ul a {
 #container {
     background-image: url(./image/home.jpg);
     background-size: cover;
+    background-position: top;
+    position: relative;
 }
+
+.option {
+    display: flex;
+    justify-content: center;
+    padding-top: 5em;
+    margin: 2em 9em 5em;
+    border-radius: 20%;
+}
+
+.one {
+    size: 50%;
+    background-color: mediumslateblue;
+    border-radius: 20%;
+    margin-right: 8%;
+}
+
+.two {
+   size: 50%;
+    background-color: pink;
+    border-radius: 20%;
+    margin-right: 8%;
+}
+
+.three {
+    size: 50%;
+    background-color: lightblue;
+    border-radius: 20%;
+    margin-right: 8%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* min-height: 100vh;
     width: 100%;
