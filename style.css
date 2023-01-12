@@ -15,7 +15,8 @@
     padding: 0 8%;
     position: relative;
 }
-.container::after {
+
+/* .container::after {
     content: '';
     position: absolute;
     left: 0;
@@ -24,16 +25,25 @@
     width: 100%;
     background-color: black;
     opacity: .2;
+} */
+
+/* .logo {
+    padding-top: 5%;
+} */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.logo {
-    margin: 0;
-    padding: 0;
-    width: 80px;
-    cursor: pointer;
+h1 {
+    padding-top: 2em;
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+
 }
-
-
 
 
 
