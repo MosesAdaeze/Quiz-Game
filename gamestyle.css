@@ -38,6 +38,10 @@
     width: 40rem;
     height: 35rem;
     background-color: skyblue;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                inset -5px -5px 12px rgba(15, 14, 14, 0.16),
+                5px -5px 12px rgba(7, 6, 6, 0.16);
+    border: none;
     border-radius: 30px;
 }
 
@@ -58,7 +62,8 @@
     border-left: 40px;
     border-right: 40px;
     box-shadow: inset  5px -5px 20px #ffffff,
-                       5px  5px 20px  rgba(0,0,0,.16);
+                       5px  5px 20px rgba(0,0,0,.16);
+                        /* rgba(0,0,0,.16); */
     border: none;
 }
 

@@ -44,7 +44,7 @@ h1 {
 .start div{
     display: flex;
     justify-content: center;
-    padding-top: 250px;
+    padding-top: 240px;
 }
 
 button {
@@ -60,14 +60,85 @@ button {
     border-radius: 30px;
 }
 
+button:hover {
+    box-shadow: inset -5px -5px 12px skyblue,
+                inset  5px  5px 12px  skyblue;
+    color: lightblue;
+}
+
+
+
 /* start selection section */
 
-.content {
+.selection-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.selection-items {
+    width: 20rem;
+    height: 15rem;
+    background-image: url(/image/option\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 82px 2em;
+    border-radius: 25%;
+    z-index: 1;
+    
+}
+
+.selection-items1 {
+    width: 20rem;
+    height: 15rem;
+    background-image: url(/image/option\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 82px 2em;
+    border-radius: 25%;
+    
+}
+
+.selection-items2 {
+    width: 20rem;
+    height: 15rem;
+    background-image: url(/image/option\ \(3\).jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 82px 2em;
+    border-radius: 25%;
+    
+}
+
+.selection-container a {
+    text-decoration: none;
+}
+
+.selection-items h1:hover {
+    color: lightblue;
+}
+
+.selection-items1 h1:hover {
+    color: rgb(224, 51, 51);
+}
+.selection-items2 h1:hover {
+    color: green;
+}
+
+
+
+
+
+/* .content {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
+/* 
 #selection .selection-items {
     padding: 30px;
     border-radius: 20px;
@@ -94,7 +165,7 @@ button {
 
 .selection-items a {
     text-decoration: none;
-}
+} */
 
 
 /* h1 {
