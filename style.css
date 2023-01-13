@@ -44,7 +44,7 @@ h1 {
 .start div{
     display: flex;
     justify-content: center;
-    padding-top: 280px;
+    padding-top: 250px;
 }
 
 button {
@@ -60,9 +60,41 @@ button {
     border-radius: 30px;
 }
 
+/* start selection section */
 
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+#selection .selection-items {
+    padding: 30px;
+    border-radius: 20px;
+    background-image: url(/image/option\ \(1\).jpg);
+    background-size: cover;
+    margin: 91px 3%;
+}
 
+#selection .selection-items1 {
+    padding: 30px;
+    border-radius: 20px;
+    background-image: url(/image/option\ \(2\).jpg);
+    background-size: cover;
+    margin: 91px 3%;
+}
+
+#selection .selection-items2 {
+    padding: 30px;
+    border-radius: 20px;
+    background-image: url(/image/option\ \(3\).jpg);
+    background-size: cover;
+    margin: 91px 3%;
+}
+
+.selection-items a {
+    text-decoration: none;
+}
 
 
 
