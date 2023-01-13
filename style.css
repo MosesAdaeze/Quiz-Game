@@ -41,23 +41,24 @@ h1 {
 
 }
 
-.box div button{
+.start div{
     display: flex;
-    align-items: center;
+    justify-content: center;
+    padding-top: 280px;
 }
 
-/* button {
+button {
     background-color: #C53592;
     color: white;
-    font-size: 170%;
+    font-size: 200%;
     font-weight: 700;
-    width: 30%;
-    height: 55px;
+    width: 230px;
+    height: 90px;
     box-shadow: inset -5px -5px 12px #ffffff,
                 inset 5px 5px 12px  #ffffff;
     border: none;
     border-radius: 30px;
-} */
+}
 
 
 
