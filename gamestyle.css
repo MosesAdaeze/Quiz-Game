@@ -69,11 +69,21 @@
 
 /* :start span */
 
-.quiz-container span{
-    width: 45%;
-    height: 3rem;
+.game-options-container{
+    width: 80%;
+    height: 12rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.game-options-container span{
+    width: 30%;
+    height: 5rem;
     border: 2px solid darkgray;
     border-radius: 20px;
+    margin: .5em;
     overflow: hidden;
 }
 
@@ -84,6 +94,7 @@ span label{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 10em;
     cursor: pointer;
     transition: transform 0.3s;
     font-weight: 600;
