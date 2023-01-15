@@ -155,18 +155,10 @@ div button:hover {
 .level-button .one {
     width: 15em;
 }
-/* .level-button {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 25px;
-}  */
 
-/* .one {
-    width: 15em;
-}  */
-
+.hide {
+    display: none;
+}
 
 
 
