@@ -1,10 +1,10 @@
-const startButton = document.getElementById('start-btn')
-const levelContainerElement = document.getElementById('level-container')
+// const startButton = document.getElementById('start-btn')
+// const levelContainerElement = document.getElementById('level-container')
 
-startButton.addEventListener('click', startGame)
+// startButton.addEventListener('click', startGame)
 
-function startGame() {
-    console.log('Started')
-    startButton.classList.add('hide')
-    questionContainerElement.classList.remove('hide')
-}
+// function startGame() {
+//     console.log('Started')
+//     startButton.classList.add('hide')
+//     questionContainerElement.classList.remove('hide')
+// }
