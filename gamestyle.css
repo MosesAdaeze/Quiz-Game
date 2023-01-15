@@ -107,6 +107,43 @@ section::after {
     outline: none;
 }
 
+span label{
+    width: 40rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+    font-weight: 600;
+    color: rgb(22, 22, 22);
+}
+/* 
+span label:hover{
+    -ms-transform: scale(1.12);
+    -webkit-transform: scale(1.12);
+    transform: scale(1.12);
+    color: white;
+} */
+
+input[type="radio"] {
+    position: relative;
+    display: none;
+}
+
+
+input[type=radio]:checked ~ .option {
+    background: paleturquoise;
+}
+
+
+
+
+
+
+
+
+
 .btn:hover {
     border: pink;
 }
@@ -132,8 +169,8 @@ section::after {
     border-radius: 20px;
     outline: none;
     cursor: pointer;
-    float: right;
-    margin-right: 20px;
+    margin-left: 20em;
+    /* margin-right: 20px; */
 }
 
 .button:hover {
