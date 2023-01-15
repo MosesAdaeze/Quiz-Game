@@ -43,8 +43,17 @@ h1 {
 
 .start div{
     display: flex;
+    align-items: center;
+    margin: 0 4.5em;
+    /* flex-direction: column; */
+    /* padding-top: 240px; */
+}
+
+.start section {
+    display: flex;
+    align-items: center;
     justify-content: center;
-    padding-top: 240px;
+    padding-top: 150px;
 }
 
 div button {
@@ -128,30 +137,35 @@ div button:hover {
 
 /* start popup con */
 
-.level-container {
+#level-container {
     width: 30em;
-    height: 23em;
+    height: 20em;
     background-color: white;
     border-radius: 15px;
+    display: flex;
+    justify-content: center;
 }
 
-#text {
-    font-size: 50px;
-    text-align: center;
-    padding-bottom: 20px;
+#level-container .level-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.level-button {
+.level-button .one {
+    width: 15em;
+}
+/* .level-button {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin: 25px; */
-}
+    margin: 25px;
+}  */
 
-.one {
+/* .one {
     width: 15em;
-}
+}  */
 
 
 
