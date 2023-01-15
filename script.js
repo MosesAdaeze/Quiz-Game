@@ -42,7 +42,7 @@ function showQuestion(question) {
 }
 
 function resetState() {
-    // clearStatusClass(document.body)
+    clearStatusClass(document.body)
     nextButton.classList.add('hide')
     while (answerButtonsElement.firstChild) {
       answerButtonsElement.removeChild(answerButtonsElement.firstChild)
@@ -56,12 +56,12 @@ function selectAnswer(e) {
     Array.from(answerButtonsElement.children).forEach(button => {
       setStatusClass(button, button.dataset.correct)
     })
-    // if (shuffledQuestions.length > currentQuestionIndex + 1) {
+    if (shuffledQuestions.length > currentQuestionIndex + 1) {
       nextButton.classList.remove('hide')
-    // } else {
-    //   startButton.innerText = 'Restart'
-    //   startButton.classList.remove('hide')
-    // }
+    } else {
+      startButton.innerText = 'Restart'
+      startButton.classList.remove('hide')
+    }
 }
 
 function setStatusClass(element, correct) {
@@ -76,30 +76,49 @@ function setStatusClass(element, correct) {
 
 function clearStatusClass(element) {
     element.classList.remove('correct')
-    // element.classList.remove('wrong')
+    element.classList.remove('wrong')
 }
 
 
 const question = [
-    {
-      question: 'What is 2 + 2',
-      answers: [
-        { text: '4', correct: true },
-        { text: '22', correct: false },
-        { text: '15', correct: false },
-        { text: 'none', correct: false }
-      ]
-    }
-]
-
-const question2 = [
   {
-    question: 'What is 4 + 4',
+    question: 'What is 2 + 2',
     answers: [
       { text: '4', correct: true },
       { text: '22', correct: false },
       { text: '15', correct: false },
       { text: 'none', correct: false }
     ]
+  },
+
+  {
+    question: 'What is 4 + 4',
+    answers: [
+      { text: '4', correct: false },
+      { text: '22', correct: false },
+      { text: '15', correct: false },
+      { text: 'none', correct: true }
+    ]
   }
+
 ]
+
+nextButton.addEventListener('click', () => {
+  const answer = getSelected()
+  if (answer) {
+      if (answer === quizData[currentQuiz].correct){
+          score++
+      }   
+
+      currentQuiz++
+
+      if (currentQuiz < quizData.length) {
+          loadQuiz()
+      }else{
+          quiz.innerHTML = `
+          <h2>You answered ${score}/${quizData.length} question correctly</h2>
+      <button onclick="location.reload()">Play Again</button>
+          `
+      }
+  }
+})
