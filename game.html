@@ -8,25 +8,39 @@
     <link rel="stylesheet" href="gamestyle.css" >
 </head>
 <body>
-    <div class="container box" >
-        <div class="quiz-container" >
-            <div class="quiz-details" >
-                <h1>Score : /10</h1>
-                <h1>Questions : /10</h1>
-            </div>
-            <div class="quiz-question-container">
-                <div class="question" >
-                    <h3>How many letters in an alphabet?</h3>
+    <section>
+        <div id="start-btn" class="start-btn" ><button>Start Quiz</button></div>
+        <div id="container" class="hide" >
+            <div id="quiz-container" class="position">
+                <div class="quiz-details" >
+                    <h1>Score : /10</h1>
+                    <h1>Questions : /10</h1>
+                </div>
+                <div class="quiz-question-container">
+                    <div id="question" >Questions</h3></div>
+                </div>
+    
+                <div id="answer-buttons" class="btn-grid" >
+                    <button class="btn">Answer 1</button> 
+                    <button class="btn">Answer 2</button> 
+                    <button class="btn">Answer 3</button> 
+                    <button class="btn">Answer 4</button> 
                 </div>
             </div>
-
-            <div id="answer-buttons" class="btn-grid" >
-                <button class="btn">Answer 1</button> 
-                <button class="btn">Answer 2</button> 
-                <button class="btn">Answer 3</button> 
-                <button class="btn">Answer 4</button> 
-            </div>
         </div>
-    </div>
+    </section>
+
+    <script>
+        const startButton = document.getElementById('start-btn')
+        const quizContainerElement = document.getElementById('container')
+        
+        startButton.addEventListener('click', startGame)
+        
+        function startGame() {
+            console.log('Started')
+            startButton.classList.add('hide')
+            quizContainerElement.classList.remove('hide')
+        }
+    </script>
 </body>
 </html>
