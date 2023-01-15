@@ -47,7 +47,7 @@ h1 {
     padding-top: 240px;
 }
 
-button {
+div button {
     background-color: #C53592;
     color: white;
     font-size: 200%;
@@ -60,7 +60,7 @@ button {
     border-radius: 30px;
 }
 
-button:hover {
+div button:hover {
     box-shadow: inset -5px -5px 12px skyblue,
                 inset  5px  5px 12px  skyblue;
     color: lightblue;
@@ -127,6 +127,48 @@ button:hover {
 .selection-items2 h1:hover {
     color: green;
 }
+
+/* start popup con */
+
+.level-container {
+    width: 30em;
+    height: 20em;
+    background-color: pink;
+}
+
+#text {
+    font-size: 50px;
+}
+
+.level-button {
+    font-size: ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 25px; */
+}
+
+.one {
+    width: 15em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
