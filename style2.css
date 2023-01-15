@@ -19,7 +19,7 @@
 .start-btn div{
     display: flex;
     justify-content: center;
-    /* padding-top: 240px; */
+    padding-top: 240px;
 }
 
 div button {
@@ -42,10 +42,10 @@ div button:hover {
 }
 
 
-.level-container {
+.con {
     width: 30em;
     height: 23em;
-    background-color: white;
+    background-color: red;
     border-radius: 15px;
 }
 
@@ -67,3 +67,6 @@ div button:hover {
     width: 15em;
 }
 
+.hide {
+    display: none;
+}
