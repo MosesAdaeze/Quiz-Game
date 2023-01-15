@@ -85,8 +85,6 @@ div button:hover {
     position: relative;
     margin: 82px 2em;
     border-radius: 25%;
-    z-index: 1;
-    
 }
 
 .selection-items1 {
@@ -132,16 +130,18 @@ div button:hover {
 
 .level-container {
     width: 30em;
-    height: 20em;
-    background-color: pink;
+    height: 23em;
+    background-color: white;
+    border-radius: 15px;
 }
 
 #text {
     font-size: 50px;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .level-button {
-    font-size: ;
     display: flex;
     flex-direction: column;
     justify-content: center;
