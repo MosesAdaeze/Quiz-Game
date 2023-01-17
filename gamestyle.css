@@ -73,7 +73,8 @@ section::after {
 }
 
 .quiz-question-container {
-    border: 2px solid magenta;
+    /* border: 2px solid magenta; */
+    font-size: 25px;
     width: 100%;
     height: 8rem;
     display: flex;
@@ -101,48 +102,12 @@ section::after {
 .btn {
     border: 5px solid skyblue;
     background-color: pink;
+    /* font-size: 25px; */
     width: 280px;
     height: 90px;
     border-radius: 20px;
     outline: none;
 }
-
-span label{
-    width: 40rem;
-    height: 10rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: transform 0.3s;
-    font-weight: 600;
-    color: rgb(22, 22, 22);
-}
-/* 
-span label:hover{
-    -ms-transform: scale(1.12);
-    -webkit-transform: scale(1.12);
-    transform: scale(1.12);
-    color: white;
-} */
-
-input[type="radio"] {
-    position: relative;
-    display: none;
-}
-
-
-input[type=radio]:checked ~ .option {
-    background: paleturquoise;
-}
-
-
-
-
-
-
-
-
 
 .btn:hover {
     border: pink;
@@ -155,11 +120,6 @@ input[type=radio]:checked ~ .option {
 .btn.wrong {
     background-color: red;
 }
-
-.hide {
-    display: none;
-}
-
 
 .button {
     border: 2px solid skyblue;
@@ -177,9 +137,9 @@ input[type=radio]:checked ~ .option {
     border: pink;
 }
 
-
-
-
+.hide {
+    display: none;
+}
 
 
 
