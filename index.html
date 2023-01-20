@@ -9,38 +9,67 @@
 </head>
 <body>
     <div class="container">
-        <div class="context start" >
+        <div class="context" >
             <h1>QUICK PLAY</h1>
-            <div>
-                <div id="level-container" class="hide" >
-                    <div class="level-button" >
-                        <button class="one">Easy</button>
-                        <button class="one">Normal</button>
-                        <button class="one">Hard</button>
-                    </div>
-                </div>
-                <!-- <a href="game.html"><button>START</button></a> -->
-                <button id="start-btn" class="start-btn btn">START</button>
-            </div>
+         <!-- <a href="game.html"><button>START</button></a> -->
+         <div>
+            <button id="start-btn" class="start-btn btn">START</button>
+         </div>
+       
         </div>
         <section id="selection" >
             <div class="selection-container" >
                 <div class="selection-items" >
-                    <a href="#"><h1>Level</h1></a>
+                    <a onclick="openOptionModal()">Level</a>
+                    <!-- <a href="#"><h1>Level</h1></a> -->
                 </div>
                 <div class="selection-items1" >
                     <a href="#"><h1>Option</h1></a>
                 </div>
-                <div class="selection-items2" >
-                    <a href="#"><h1>Rules</h1></a>
+            </div>
+
+            <div class="modal-container" id="option-modal">
+ 
+                <div class="modal-content-container">
+                     <!-- <h1>Please Pick An Option</h1> -->
+
+                     <div class="modal-button-container">
+                        <button onclick="openOptionModal()">Continue</button>
+                        <button onclick="openOptionModal()">Continue</button>
+                        <button onclick="openOptionModal()">Continue</button>
+                    </div>
+
                 </div>
             </div>
         </section>
-    </div>
-    <!-- <script src="script.js"></script> -->
+    <script src="script.js"></script>
 </body>
 </html>
 
+
+
+
+
+<!-- <div class="botton">
+    <div id="level-container" class="hide" >
+        <div class="level-button" >
+            <button class="one">Easy</button>
+            <button class="one">Normal</button>
+            <button class="one">Hard</button>
+        </div>
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- id="option-modal" -->
 <!-- 
 <section id="container" >
     <div class="context box" >
