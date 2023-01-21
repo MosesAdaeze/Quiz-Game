@@ -253,9 +253,11 @@ h1 {
 
 .selection-container {
     display: flex;
+    align-items: center;
     justify-content: center;
     text-align: center;
     padding-top: 55px;
+    /* padding-left: 100px; */
 }
 
 .selection-items {
@@ -269,7 +271,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 82px 2em;
+    margin: 82px 1em;
     border-radius: 25%;
 }
 
@@ -284,7 +286,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 82px 2em;
+    margin: 82px;
     border-radius: 25%;
     
 }
@@ -315,4 +317,30 @@ h1 {
 
 .selection-items1 a:hover {
     color: rgb(224, 51, 51);
+}
+
+@media (max-width: 937px) {
+    .selection-items{
+        margin: 82px -1em;
+    }
+}
+
+@media (min-width: 687px) {
+    .selection-container {
+        padding-left: 100px;
+    }
+}
+
+@media (max-width: 687px) {
+    .selection-container {
+        display: flex;
+        flex-direction: column; 
+        margin: 0 50px;
+    }
+    
+    .container{
+       width: 100vw;
+       height: 100vh;
+       background-size: cover;
+    }
 }
