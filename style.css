@@ -214,16 +214,18 @@ h1 {
 .rules-content-container {
     background-color: #ffffff;
     width: 35em;
-    height: 15em;
+    height: 16em;
     border-radius: 20px;
     padding-left: 30px;
 }
 
 .rules-content-container li{
+    padding-top: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
 }
 .rules-button {
+    padding-top: 10px;
     display: flex;
     align-items: baseline;
     justify-content: center;
@@ -231,10 +233,10 @@ h1 {
 .rules-button button {
     background-color: #C53592;
     color: white;
-    font-size: 200%;
+    font-size: 100%;
     font-weight: 700;
-    width: 150px;
-    height: 70px;
+    width: 100px;
+    height: 60px;
     box-shadow: inset -5px -5px 12px #ffffff,
                 inset 5px 5px 12px  #ffffff;
     border: none;
