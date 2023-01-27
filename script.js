@@ -10,6 +10,7 @@ function closeOptionlevel(){
   document.getElementById('option-level').style.display = "none"
 }
 
+
 function closeOptions(){
   document.getElementById('options').style.display = "none"
 }
